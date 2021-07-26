@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Angles of Triangles</title>
     <meta name="author" content="Prashant Ghule">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
@@ -16,35 +16,26 @@
 
 <body>
     <div class="center">
-        <div>
-            <h1>Welcome to Fun Traingles</h1>
-            <div class="grid">
-                <div class="col">
-                    <a href="./angles.html">
-                        <div class="cell">
-                            Angles of Triangle
-                        </div>
-                    </a>
-                    <a href="./area.html">
-                        <div class="cell">
-                            Calculate Area
-                        </div>
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="./hypotenuse.html">
-                        <div class="cell">
-                            Check Hypotenuse
-                        </div>
-                    </a>
-                    <a href="./quiz.html">
-                        <div class="cell">
-                            Take a Quiz
-                        </div>
-                    </a>
-                </div>
+        <section class="section">
+            <div class="backContainer">
+                <i class="fas fa-chevron-left">
+                    <a href="/index.html">Go Back</a>
+                </i>
             </div>
-        </div>
+
+            <h1>Enter the angles and we will tell if these angles make a triangle.</h1>
+
+            <form class="form" id="formTriangle">
+                <input type="number" class="inputBox inputAngle" min="1" max="180" required>
+                <input type="number" class="inputBox inputAngle" min="1" max="180" required>
+                <input type="number" class="inputBox inputAngle" min="1" max="180" required>
+                <button class="button inputAngle" id="submitBtn">Submit</button>
+            </form>
+
+            <div class="output">
+                <div id="isTriangle">Output will be shown here.</div>
+            </div>
+        </section>
     </div>
 
     <footer class="footer">
@@ -76,6 +67,8 @@
             </li>
         </ul>
     </footer>
+
+    <script src="angles.js"></script>
 </body>
 
 </html>
