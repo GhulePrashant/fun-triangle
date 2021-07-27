@@ -189,12 +189,12 @@ a{
     bottom: -100px;
 }
 
-.formulaSelction{
+.formulaSelectionForm{
     text-align: left;
     line-height: 2rem;
 }
 
-.formulaSelction label{
+.formulaSelectionForm label{
     cursor: pointer;
 }
 

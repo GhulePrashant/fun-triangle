@@ -8,5 +8,4 @@ formHyp.addEventListener('submit', (e)=>{
     lengthB = Number(inputSides[1].value);  
     
     hypotenuse.innerText = Math.sqrt((lengthA*lengthA) + (lengthB*lengthB));
-    
 })
