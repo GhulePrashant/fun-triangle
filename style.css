@@ -1,0 +1,45 @@
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body{
+    background-color: bisque;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    text-align: center;
+}
+
+.cell{
+    background-color: beige;
+    width: 100px;
+    height: 100px;
+    margin: 0.2rem 0.2rem 0.4rem;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
