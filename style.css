@@ -43,3 +43,205 @@ a{
     color: black;
 }
 
+.col a:hover .cell{
+    background-color: burlywood;
+    text-decoration: none;
+}
+
+.section{
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin: 2rem 1rem;
+}
+
+.inputBox{
+    border: 2px solid burlywood;
+    padding: 0.75rem;
+    margin: 1rem 1rem 1.5rem 0.2rem;
+    height: 15px;
+    width: 50px;
+    overflow: scroll;
+}
+
+.inputBox::-webkit-scrollbar {
+    width: 0px;
+}
+
+.button{
+    display: block;
+    margin: 0 auto 1rem;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    background-color: burlywood;
+}
+
+.button:hover{
+    background-color: coral;
+}
+
+.backContainer{
+    margin: 2rem auto 0rem;
+    color: burlywood;
+    font-size: 1.2rem;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.backContainer a{
+    font-weight: bold;
+}
+
+.output{
+    margin: auto;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: fit-content;
+    border: 2px solid;
+    margin-top: 2rem;
+}
+
+.label{
+    font-weight: bold;
+    display: inline-block;
+}
+
+.triangle div{
+    height: 2px;
+    background-color: burlywood;
+}
+.triangle{
+    position: relative;
+    width: 104px;
+    height: 104px;
+    margin: 0 auto 20px;
+
+}
+.triangle label{
+    position: absolute;
+    font-size: 0.8rem;
+}
+    
+.sideA{
+    left: -15px;
+    top: 45px;
+}
+.sideB{
+    left: 45px;
+    top:105px;
+}
+.sideC{
+    left: 50px;
+    top: 35px;
+}
+.heightH{
+    left: 25px;
+    top:75px;
+}
+.angleA{
+    left: 75px;
+    top:87px;
+}
+.triangle .line1{
+    width: 100px;
+    bottom: -102px;
+    
+}
+
+.triangle .line2{
+    width: 100px;
+    transform: rotate(90deg);
+    top: 50px;
+    left: -50px;
+}
+.triangle .line3{
+    width: 141.42px;
+    transform: rotate(45deg);
+    top: 50px;
+    left: -20px;
+}
+.triangle .line4{
+    width: 71px;
+    transform: rotate(135deg);
+    left:-12px;
+    top: 72px
+}
+.triangle .line5{
+    width: 8px;
+    transform: rotate(135deg);
+    left:50px;
+    top: 55px;
+}
+.triangle .line6{
+    width: 12px;
+    transform: rotate(45deg);
+    left:41px;
+    top: 50px;
+}
+.line{
+    position: relative;
+    bottom: -100px;
+}
+
+.formulaSelction{
+    text-align: left;
+    line-height: 2rem;
+}
+
+.formulaSelction label{
+    cursor: pointer;
+}
+
+.areaCalBlock{
+    display: none;
+}
+
+.formQuiz{
+    text-align: left;
+}
+
+.formQuiz label.question{
+    display: block;
+}
+
+.radio input{
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.ow{
+    background-color: var(--off-white);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.error{
+    display: none;
+}
+
+.footer{
+    width: 100%;
+    min-height: 6vh;
+    background-color: rgb(30, 58, 138, 0.5);
+}
+
+.footer-list{
+    height: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item{
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+}
+
